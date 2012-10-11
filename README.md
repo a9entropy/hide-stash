@@ -1,7 +1,7 @@
 hide-stash
 ==========
 
-Everyone has some stuff they don't want others to see or access. Unfortunately I don't have a Personal Computer, and I had some stuff I wanted to hide. I tried using some softwares but they just didn't seem right. So I made a small script that uses the oldest trick in the book - **Renaming Files**
+Everyone has some stuff \*cough\* porn \*cough\* they don't want others to see or access. Unfortunately I don't have a Personal Computer, and I had some stuff I wanted to hide. I tried using some softwares but they just didn't seem right. So I made a small script that uses the oldest trick in the book - **Renaming Files**
 
 
 ## Disclaimer
