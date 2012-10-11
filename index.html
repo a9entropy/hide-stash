@@ -31,6 +31,29 @@
 
 <p>Everyone has some stuff *cough* porn *cough* they don't want others to see or access. Unfortunately I don't have a Personal Computer, and I had some stuff I wanted to hide. I tried using some softwares but they just didn't seem right. So I made a small script that uses the oldest trick in the book - <strong>Renaming Files</strong></p>
 
+<h2>Usage</h2>
+
+<h4>Hide files</h4>
+
+<p>Place the <code>.py</code> files in the diretory you want to hide. So if you put the files in <code>/foo/bar/</code>, it will hide all files inside of <code>bar</code>.</p>
+
+<div class="highlight"><pre>python rename.py
+</pre></div>
+
+<p>A file called <code>temp</code> will be created.</p>
+
+<h4>Unhide files</h4>
+
+<div class="highlight"><pre>python rename.py
+</pre></div>
+
+<h4>Backup filenames and structure</h4>
+
+<div class="highlight"><pre>python backup.py
+</pre></div>
+
+<p>A file named <code>backup_pickle</code> will be created. Read the internals of <code>backup.py</code> for more info.</p>
+
 <h2>Disclaimer</h2>
 
 <p>I am not a very experienced programmer and have very little experience. So you might think this script is <code>Shitty</code>.
@@ -50,25 +73,7 @@
 <li>Rollback to original filenames</li>
 <li>Flexible configuration</li>
 <li>Can create backups in case things go wrong. (Not automatially)</li>
-</ul><h2>Usage</h2>
-
-<h4>Hide files</h4>
-
-<p>Place the <code>.py</code> files in the diretory you want to hide. So if you put the files in <code>/foo/bar/</code>, it will hide all files inside of <code>bar</code>.</p>
-
-<p>Run <code>python rename.py</code></p>
-
-<p>A file called <code>temp</code> will be created.</p>
-
-<h4>Unhide files</h4>
-
-<p>Run <code>python rename.py</code></p>
-
-<h4>Backup filenames and structure</h4>
-
-<p>Run <code>python backup.py</code></p>
-
-<p>A file named <code>backup_pickle</code> will be created. Read the internals of <code>backup.py</code> for more info.</p>
+</ul>
       </section>
     </div>
     <footer>
