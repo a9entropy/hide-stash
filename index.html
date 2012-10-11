@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Hide-stash by a9entropy</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Hide-stash</h1>
+        <p>Hide the your stash on your computer.</p>
+        <p class="view"><a href="https://github.com/a9entropy/hide-stash">View the Project on GitHub <small>a9entropy/hide-stash</small></a></p>
+        <ul>
+          <li><a href="https://github.com/a9entropy/hide-stash/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/a9entropy/hide-stash/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/a9entropy/hide-stash">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>hide-stash</h1>
+
+<p>Everyone has some stuff they don't want others to see or access. Unfortunately I don't have a Personal Computer, and I had some stuff I wanted to hide. I tried using some softwares but they just didn't seem right. So I made a small script that uses the oldest trick in the book - <strong>Renaming Files</strong></p>
+
+<h2>Disclaimer</h2>
+
+<p>I am not a very experienced programmer and have very little experience. So you might think this script is <code>Shitty</code>.
+<img src="http://i.imgur.com/6Uh8G.jpg" alt="This is how I feel"></p>
+
+<h2>Limitations</h2>
+
+<ul>
+<li>The .py files have to be at the to of the diretory you want to hide.</li>
+<li>Directory names remain unhanged.</li>
+<li>Some filenames are reserved. (<code>hidden</code>, <code>temp</code> etc.)</li>
+<li>No Unit tests. (Read disclaimer)</li>
+</ul><h2>Features</h2>
+
+<ul>
+<li>Rename files with a different extension.</li>
+<li>Rollback to original filenames</li>
+<li>Flexible configuration</li>
+<li>Can create backups in case things go wrong. (Not automatially)</li>
+</ul><h2>Usage</h2>
+
+<h4>Hide files</h4>
+
+<p>Place the <code>.py</code> files in the diretory you want to hide. So if you put the files in <code>/foo/bar/</code>, it will hide all files inside of <code>bar</code>.</p>
+
+<p>Run <code>python rename.py</code></p>
+
+<p>A file called <code>temp</code> will be created.</p>
+
+<h4>Unhide files</h4>
+
+<p>Run <code>python rename.py</code></p>
+
+<h4>Backup filenames and structure</h4>
+
+<p>Run <code>python backup.py</code></p>
+
+<p>A file named <code>backup_pickle</code> will be created. Read the internals of <code>backup.py</code> for more info.</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/a9entropy">a9entropy</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
